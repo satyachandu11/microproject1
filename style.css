@@ -1,0 +1,156 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.hero{
+    display: flex;
+    background-color: #FFCD9E;
+    height: 73vh;
+    width: 100vw;
+}
+
+.left{
+    margin-left: 140px;
+    margin-right: 50px;
+}
+
+#heading1{
+    color: #282828;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 110px;
+}
+
+#para1{
+    color:#484848;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sentence1{
+    color: #282828;
+    font-size: 18px;
+}
+
+#email1{
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    border-color: black;
+    padding: 12px;
+    width: 245px;
+    
+}
+
+#button{
+    background-color:#282828;
+    color: #FFFFFF;
+    padding: 12px;
+    border-radius: 7px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+#spanpage1{
+    color: #FFFFFF;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.right{
+    margin-right: 6rem;
+}
+
+.footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 27vh;
+    width: 100vw;
+    background-color: #282828;
+}
+
+.footer-left{
+    color: #FFFFFF;
+}
+
+.footer-right{
+    color: #FFFFFF;
+    text-align: end;
+    
+}
+
+li{
+    list-style: none;
+    margin-bottom: 11px;
+}
+
+/* Page 2 Styles */
+#thanks{
+    font-size: 40px;
+}
+
+#spanpage2{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .right{
+        display: none;
+    }
+
+    .left{
+        margin-left: 2rem;
+        margin-top: -6rem;
+        text-align: center;
+    }
+    #heading1{
+        font-size: 2rem;
+        
+    }
+    #email1{
+        margin-top: 1rem;
+    }
+    #button{
+        margin-top: 1rem;
+    }
+    #spanpage1{
+        margin-left: 0.51rem;
+        
+    }
+}
+
+@media screen and  (min-width:480px) and (max-width:768px){
+    .right{
+        margin-right: 0.5rem;
+    }
+    #image{
+        height: 20rem;
+        margin-top: 5rem;
+    }
+    .left{
+        margin-left: 2rem;
+        margin-top: -4rem;
+        text-align: center;
+        /* margin-right: 10rem;*/
+    }
+    #heading1{
+        font-size: 2rem;
+        
+        
+    }
+    #sentence1{
+        margin-top: -2rem;
+    }
+    #email1{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
